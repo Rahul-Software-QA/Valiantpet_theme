@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ValiantPet.AccountPage">
+      <class name="ValiantPet.CampareList">
         <methods>
-          <include name="SigninTest" invocation-numbers="0"/>
-          <include name="teardown"/>
           <include name="setup"/>
+          <include name="SigninTest"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- ValiantPet.AccountPage -->
+      </class> <!-- ValiantPet.CampareList -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
